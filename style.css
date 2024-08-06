@@ -1,0 +1,178 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0;
+    font-family: "merriweather", sans-serif;
+    color: #40514e;
+}
+
+
+.top-container{
+    background: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+
+h1{
+    color: #66bfbf;
+    font-family: "sacramento";
+    text-align: center;
+    margin: 50px auto 0 auto;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+h2{
+    font-family:"montserrat", sans-serif ;
+    font-weight: normal;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #66bfbf;
+    font-size: 3rem;
+}
+.right-cloud{
+    position: absolute; 
+    right: 300px;
+    top: 40px;
+}
+
+.left-cloud{
+    position:absolute;
+    left: 250px;
+    bottom: 300px;
+
+}
+
+span{
+    text-decoration: underline;
+}
+
+.profile-img{
+    margin-top: 50px;
+    width: 180px;
+    height:180px;
+    border-radius:50%;
+}
+
+.intro{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.third-container{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.level{
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.second > ul{
+    list-style: none;
+}
+
+.myLink{
+    color: #40514e;
+    font-size: 2rem;
+    font-family: "merriweather", sans-serif;
+}
+a.myLink:link{
+    text-decoration: none;  
+}
+a.myLink:hover{
+    font-size: 250%;
+    text-decoration: underline;
+}
+
+.fourth-container{
+    padding: 50px;
+    margin: 0;
+}
+
+
+.links-container , a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.links-container{
+    padding: 50px;
+    border-color: #40514e;
+    border: 5px double;
+}
+
+.email{
+    background-color: #11cdd4;
+    text-decoration: none;
+    font-family:"merriweather", sans-serif; 
+    color: #ffff;
+    padding: 10px 20px 10px 20px;
+    width: fit-content;   
+    position: relative;
+    border-radius: 8px;
+    bottom: 10px;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+}   
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-family:"merriweather", sans-serif; 
+    color: #11999e;
+    margin: 10px 20px;
+}
+
+.footer-link:hover{
+    color: #e4f9f5;
+}
+
+footer{
+    background-color: #66bfbf;
+    color:#eaf6f6;
+    padding: 20px 0;
+} 
+
+@media only screen and (max-width: 320px) {
+    body {
+      font-size: 12px;
+    }
+    .top-container {
+      padding-top: 20px;
+    }
+    .title-text {
+      font-size: 18px;
+    }
+  }
+
+  
+
+
